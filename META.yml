@@ -1,10 +1,11 @@
 --- 
 abstract: A POE::Component::IRC plugin that runs Acme::POE::Knee races.
-author: Chris Williams
+author: 
+  - Chris Williams
 build_requires: 
   Test::More: 0.47
 distribution_type: module
-generated_by: Module::Install version 0.67
+generated_by: Module::Install version 0.68
 license: perl
 meta-spec: 
   url: http://module-build.sourceforge.net/META-spec-v1.3.html
@@ -18,4 +19,4 @@ requires:
   Math::Random: 0.69
   POE::Component::IRC: 5.06
   Time::HiRes: 0
-version: 1.01
+version: 1.02
