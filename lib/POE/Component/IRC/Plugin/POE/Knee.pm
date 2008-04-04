@@ -1,6 +1,7 @@
 package POE::Component::IRC::Plugin::POE::Knee;
 
 use strict;
+use warnings;
 use Time::HiRes qw(gettimeofday);
 use Math::Random;
 use POE;
@@ -8,7 +9,7 @@ use POE::Component::IRC::Plugin qw(:ALL);
 use POE::Component::IRC::Common qw(:ALL);
 use vars qw($VERSION);
 
-$VERSION = '1.02';
+$VERSION = '1.04';
 
 sub new {
   my $package = shift;
