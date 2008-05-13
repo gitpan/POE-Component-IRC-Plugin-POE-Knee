@@ -9,7 +9,7 @@ use POE::Component::IRC::Plugin qw(:ALL);
 use POE::Component::IRC::Common qw(:ALL);
 use vars qw($VERSION);
 
-$VERSION = '1.04';
+$VERSION = '1.06';
 
 sub new {
   my $package = shift;
@@ -235,6 +235,12 @@ Generated each time a POE::Knee race finishes.
 Chris 'BinGOs' Williams
 
 Based on L<Acme::POE::Knee> by Jos Boumans and Rocco Caputo
+
+=head1 LICENSE
+
+Copyright C<(c)> Chris Williams, Jos Boumans and Rocco Caputo.
+
+This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 =head1 SEE ALSO
 

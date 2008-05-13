@@ -1,6 +1,9 @@
 POE::Component::IRC::Plugin::POE::Knee
 ======================================
 
+1.06	Tue May 13 10:56:22 BST 2008
+	- Added LICENSE information
+
 1.04	Fri Apr  4 13:55:23 BST 2008
 	- Kwalitee fixes.
 
