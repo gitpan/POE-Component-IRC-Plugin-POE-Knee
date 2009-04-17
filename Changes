@@ -1,6 +1,10 @@
 POE::Component::IRC::Plugin::POE::Knee
 ======================================
 
+1.08	Fri Apr 17 22:45:03 BST 2009
+	- Import git repo
+	- bump to stable release
+
 1.06	Tue May 13 10:56:22 BST 2008
 	- Added LICENSE information
 

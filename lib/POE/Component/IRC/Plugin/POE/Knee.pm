@@ -9,7 +9,7 @@ use POE::Component::IRC::Plugin qw(:ALL);
 use POE::Component::IRC::Common qw(:ALL);
 use vars qw($VERSION);
 
-$VERSION = '1.06';
+$VERSION = '1.08';
 
 sub new {
   my $package = shift;
@@ -193,7 +193,7 @@ horse races on IRC channels using the channel member list to generate the POE::K
 
 =over 
 
-=item new
+=item C<new>
 
 Creates a new plugin object. You may specify the following optional parameters:
 
@@ -205,7 +205,7 @@ Creates a new plugin object. You may specify the following optional parameters:
 
 =over 
 
-=item POEKNEE
+=item C<POEKNEE>
 
 If your bot is addressed by name with the command 'POEKNEE' (case doesn't matter), with optional number of stages,
 a POE::Knee race is started.
@@ -221,7 +221,7 @@ the following 'irc' event is generated.
 
 =over
 
-=item irc_poeknee_results
+=item C<irc_poeknee_results>
 
 Generated each time a POE::Knee race finishes. 
 
@@ -238,7 +238,7 @@ Based on L<Acme::POE::Knee> by Jos Boumans and Rocco Caputo
 
 =head1 LICENSE
 
-Copyright C<(c)> Chris Williams, Jos Boumans and Rocco Caputo.
+Copyright E<copy> Chris Williams, Jos Boumans and Rocco Caputo.
 
 This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
